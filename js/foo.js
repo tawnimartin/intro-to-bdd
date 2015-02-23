@@ -3,7 +3,6 @@ window.Foo = (function() {
   function Foo() {
 
   	Foo.greet = function(str) {
-  		//console.log(str);
         return "Hello, " + str + "!";
     }
 
