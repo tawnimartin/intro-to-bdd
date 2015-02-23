@@ -6,6 +6,10 @@ window.Foo = (function() {
 
   Foo.prototype = {
 
+  	plusOne: function(num) {
+  		return num ++;
+  	}
+
   };
 
   return Foo;
