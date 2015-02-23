@@ -2,6 +2,11 @@ window.Foo = (function() {
 
   function Foo() {
 
+  	Foo.greet = function(str) {
+  		//console.log(str);
+        return "Hello, " + str + "!";
+    }
+
   }
 
   Foo.prototype = {
@@ -22,7 +27,6 @@ window.Foo = (function() {
 	   return found;
   	
   	}
-
 
 
   };
